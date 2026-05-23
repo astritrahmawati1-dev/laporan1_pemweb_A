@@ -1,0 +1,104 @@
+<!-- Astrit Rahmawati_202432015 -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pendaftaran</title>
+
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Open Recruitment Asisten</h1>
+
+        <nav>
+            <a href="inventaris.html">Inventaris</a>
+            <a href="stok.html">Stok Barang</a>
+            <a href="pendaftaran.html" class="active">Pendaftaran</a>
+            <a href="akun.html">Portal Akun</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <form class="reg-form">
+
+            <fieldset>
+
+                <legend>Data Identitas Calon Asisten</legend>
+
+                <!-- Nama -->
+                <div class="form-group">
+                    <label>Nama Lengkap:</label>
+
+                    <input 
+                        type="text" 
+                        placeholder="Sesuai KTM"
+                    >
+                </div>
+
+                <!-- Minat -->
+                <div class="form-group">
+                    <label>Minat Laboratorium:</label>
+
+                    <select>
+                        <option>Information Retrieval</option>
+                        <option>Cyber Security</option>
+                        <option>Software Engineering</option>
+                    </select>
+                </div>
+
+                <!-- Bahasa -->
+                <div class="form-group">
+
+                    <label>Bahasa Pemrograman :</label>
+
+                    <div class="checkbox-group">
+
+                        <input type="checkbox" id="python">
+                        <label for="python">Python</label>
+
+                        <input type="checkbox" id="java">
+                        <label for="java">Java</label>
+
+                        <input type="checkbox" id="php">
+                        <label for="php">PHP</label>
+
+                    </div>
+
+                </div>
+
+                <!-- Visi -->
+                <div class="form-group">
+                    <label>Visi & Misi:</label>
+
+                    <textarea 
+                        rows="5" 
+                        placeholder="Masukkan visi dan misi"
+                    ></textarea>
+                </div>
+
+                <!-- Upload -->
+                <div class="form-group">
+                    <label>Upload CV</label>
+
+                    <input type="file">
+                </div>
+
+                <!-- Tombol -->
+                <button type="submit">
+                    Kirim Aplikasi
+                </button>
+
+            </fieldset>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

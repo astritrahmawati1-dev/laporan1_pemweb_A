@@ -1,0 +1,120 @@
+/* Astrit Rahmawati_202432015 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #4f74b7;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1{
+    margin-bottom: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+nav a.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.reg-form{
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    border-top: 5px solid #4f74b7;
+}
+
+fieldset{
+    border: none;
+}
+
+legend{
+    font-size: 28px;
+    color: #4f74b7;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea,
+input[type="file"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox-group{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkbox-group label{
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.checkbox-group{
+    font-size: 14px;
+}
+
+textarea{
+    resize:none;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+
+    background-color: #4f74b7;
+    color:white;
+
+    border:none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #35548a;
+}
