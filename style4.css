@@ -1,0 +1,110 @@
+/* Astrit Rahmawati_202432015 */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f2f2f2;
+}
+
+/* Container utama */
+.stok-container{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header{
+    background:#6ba5bb;
+    padding:40px;
+    text-align:center;
+}
+
+/* Judul */
+header h1{
+    color:white;
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+/* Navigasi */
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+
+    border:1px solid rgba(255,255,255,0.7);
+
+    padding:6px 12px;
+    margin:0 5px;
+
+    border-radius:4px;
+
+    font-size:14px;
+
+    transition:0.3s;
+}
+
+/* Hover menu */
+nav a:hover{
+    background:white;
+    color:#6ba5bb;
+}
+
+/* Menu aktif */
+nav a.active{
+    background:white;
+    color:#6ba5bb;
+}
+
+/* Main */
+main{
+    padding:50px;
+}
+
+/* Judul isi */
+main h2{
+    margin-bottom:30px;
+    color:#111;
+    font-size:24px;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+/* Header tabel */
+thead{
+    background:#6ba5bb;
+    color:white;
+}
+
+/* Isi tabel */
+th,
+td{
+    border:1px solid #cfd8dc;
+    padding:20px;
+    text-align:left;
+    font-size:14px;
+}
+
+/* Posisi tengah khusus th */
+th{
+    text-align:center;
+}
+
+/* Warna baris */
+tbody tr{
+    background:#f7f7f7;
+}
